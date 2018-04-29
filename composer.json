@@ -1,0 +1,16 @@
+{
+    "name": "yidas/codeigniter-phpunit",
+    "description": "CodeIgniter 3 PHPUnit Test extension library",
+    "keywords": ["codeIgniter", "phpunit", "unit-test", "test-driven-development"],
+    "homepage": "https://github.com/yidas/codeigniter-phpunit",
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/yidas/codeigniter-phpunit/issues",
+        "source": "https://github.com/yidas/codeigniter-phpunit"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": ">=5.5.0"
+    }
+}
