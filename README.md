@@ -9,8 +9,9 @@
 CodeIgniter 3 PHPUnit Test extension library
 
 [![Latest Stable Version](https://poser.pugx.org/yidas/codeigniter-phpunit/v/stable?format=flat-square)](https://packagist.org/packages/yidas/codeigniter-phpunit)
-[![Latest Unstable Version](https://poser.pugx.org/yidas/codeigniter-phpunit/v/unstable?format=flat-square)](https://packagist.org/packages/yidas/codeigniter-phpunit)
 [![License](https://poser.pugx.org/yidas/codeigniter-phpunit/license?format=flat-square)](https://packagist.org/packages/yidas/codeigniter-phpunit)
+
+This RESTful API extension is collected into [yidas/codeigniter-pack](https://github.com/yidas/codeigniter-pack) which is a complete solution for Codeigniter framework.
 
 FEATURES
 --------
@@ -90,12 +91,19 @@ USAGE
 In the `application` directory of this library, run `phpunit` from vendor:
 
 ```
-./vendor/bin/phpunit
+$ ./vendor/bin/phpunit
+```
+
+Or using absolute path commands like:
+
+```
+$ /var/www/html/codeigniter3/application/vendor/bin/phpunit -c /var/www/html/codeigniter3/application/phpunit.xml
+$ phpunit -c /var/www/html/codeigniter3/application/phpunit.xml
 ```
 
 Then the result would like:
 
-```
+```ps
 PHPUnit 5.7.27 by Sebastian Bergmann and contributors.
 
 
